@@ -1,8 +1,5 @@
-%% Home work1 
-% To get the data of the messages.mat
-%---> Find the pdf from the message.
-%---> Find the likelihood ratio & MLD rule.
-%---> Find the error probability.
+%% Classifify messages. 
+%% To get the data of the messages.mat
 clear all
 close all
 load messages.mat; 
