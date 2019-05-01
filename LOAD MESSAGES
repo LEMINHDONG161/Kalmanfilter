@@ -2,7 +2,7 @@
 %---> Find the pdf from the message.
 %---> Find the likelihood ratio & MLD rule.
 %---> Find the error probability.
-clear
+clear all
 load messages.mat; 
 
 figure(1)
