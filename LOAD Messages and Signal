@@ -1,28 +1,24 @@
-% To get the data of the messages.mat
-%---> Find the pdf from the message.
-%---> Find the likelihood ratio & MLD rule.
-%---> Find the error probability.
+
+
 clear all
+% To get the data of the messages.mat
 load messages.mat; 
 
 figure(1)
 plot(t_m, m0, '--', t_m, m1, '-')
 xlabel('Time [sec]')
 ylabel('Voltage [v]')
-
+% histogram of m0 in messages.mat
 figure(2) 
 hist(m0);
 xlabel('Voltage [v]')
 ylabel('Number')
-
+% histogram of m1 in messages.mat
 figure(3) 
 hist(m1);
 xlabel('Voltage [v]')
 ylabel('Number')
-
-% To get the data of the signal.mat
-%---> Decide the signal from the signal+noise data.
-%---> How many errors will be the result?
+% To get the data of signal.mat
 load signal.mat;
 
 figure(4)
