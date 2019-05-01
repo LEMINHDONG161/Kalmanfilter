@@ -1,3 +1,4 @@
+%% Compare measured data and kalmanfilter results
 clear all;
 close all;
 clc;
@@ -67,5 +68,3 @@ legend('Measured data','Kalman')
 set(gca, 'fontsize', 16);
 hold off
 
-%savefile = 'measure_data.mat';
-%save(savefile, 'Time', 'z');
